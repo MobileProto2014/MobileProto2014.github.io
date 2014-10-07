@@ -63,14 +63,435 @@
 	    		padding: 0 1em;
 	    	}
 	    </style>
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <title>Mobile Prototyping 2014</title>
+	    
+	    <style>
+	    	body {
+	    		font-family: Arial, Helvetica, sans-serif;
+	    		margin: 0;
+	    		padding: 0;
+	    	}
+	    	nav {
+	    		width: 12em;
+			position: fixed;
+			top: 8.5em;
+			display: inline-block;
+			vertical-align: top;
+	    	}
+	    	ul {
+	    		list-style: none;
+	    		line-height: 1.5em;
+	    	}
+	    	a {
+	    		color: #11AA11;;
+	    		text-decoration: none;
+	    		font-weight: bold;
+	    	}
+	    	a:hover {
+	    		opacity: 0.5;
+	    	}
+	    	.wrapper {
+	    		display: inline-block;
+	    		margin-top: 8.5em;
+	    		margin-left: 12.5em;
+				vertical-align: top;
+				width: 70%;
+	    	}
+	    	section {
+	    		position: relative;
+	    		margin: 1em;
+	    		padding: 0.1em 1em 1em;
+				border-radius: 0.8em;
+				box-shadow: 1px 1px 10px -4px #000;
+	    	}
+	    	h1 {
+	    		position: fixed;
+				width: 100%;
+				margin: 0;
+	    		background: black;
+				text-shadow: 1px 1px 1px #fff, -1px -1px 1px #fff, 0px 0px 15px #fff;
+				z-index: 1000;
+	    	}
+	    	h1 img {
+	    		height: 3em;
+				vertical-align: middle;
+				background: white;
+				margin: 0.1em;
+				border-radius: 100px;
+				box-shadow: inset 1px 1px 10px;
+	    	}
+	    	h2 {
+	    		font-weight: 500;
+	    	}
+	    	p {
+	    		padding: 0 1em;
+	    	}
+	    	a.anchor {
+	    		position: absolute;
+	    		top:-7em;
+	    	}
+	    </style>
 
 	</head>
 	<body>
-		<div id="container">
+		<div id="header">
 			<h1>
 				<img src="http://www.userlogos.org/files/logos/drown/android4.png"/>
 				Mobile Proto 2014
 			</h1>
+		</div>
+		<div id="container">
+			
+			
+			<nav>
+				<ul>
+					<li><a href="#class12">Class 12 - 10/16</a></li>
+					<li><a href="#class11">Class 11 - 10/9</a></li>
+					<li><a href="#class10">Class 10 - 10/6</a></li>
+					<li><a href="#class9">Class 9 - 10/2</a></li>
+					<li><a href="#class8">Class 8 - 9/29</a></li>
+					<li><a href="#class7">Class 7 - 9/25</a></li>
+					<li><a href="#class6">Class 6 - 9/22</a></li>
+					<li><a href="#class5">Class 5 - 9/18</a></li>
+					<li><a href="#class4">Class 4 - 9/15</a></li>
+					<li><a href="#class3">Class 3 - 9/11</a></li>
+					<li><a href="#class2">Class 2 - 9/8</a></li>
+					<li><a href="#class1">Class 1 - 9/4</a></li>
+				</ul>
+			</nav>
+			
+			<div class="wrapper">
+			
+				<section class="message">
+					<a class="anchor" id="class12"></a>
+					<h2>Class 12 - 10/16</h2>
+					<p>Indico is coming back to hear our pitches! Bonus Points if you used Indico's APIs in your app</p>
+					
+					<div class="email">
+					</div>
+					
+					<!--<p><b>Upcoming Deliverables:</b> <br>-->
+					<!--</p>-->
+				</section>
+			
+				<section class="message">
+					<h2>No Class 10/13</h2>
+					<p>Columbus Day!</p>
+					
+					<div class="email">
+					</div>
+					
+					<p><b>Indico Sprint ends Thursday!</b></p>
+				</section>
+			
+				<section class="message">
+					<a class="anchor" id="class11"></a>
+					<h2>Class 11 - 10/9</h2>
+					<p>Allan Carol from <a href="www.hangtime.com">Hangtime</a> is coming in to speak to the class about app development in industry!</p>
+					
+					<div class="email">
+					What makes a good pitch? <br>
+					Here are some ideas of professional pitches: <a href="http://www.pitchenvy.com/">http://www.pitchenvy.com/</a> <br>
+					And some not so professional pitches: <a href="http://www.youtube.com/watch?v=LMmdl4VltD4">Start-up Guys</a>
+					</div>
+					
+					<p><b>Upcoming Deliverables:</b> <br>
+					Indico Sprint Ends Thursday 10/16! Next Thursday night we will be pitching our apps to the Indico team. Not only should you be done with this sprint, but you should prepare a 10 minute pitch to convince us that your target audience should download your app.
+						<ol> Again, this sprint will be evaluated on the following criteria:
+							<li>Work Distribution -  10%</li>
+							<li>User Oriented Design Process - 30%
+								<ol>
+									<li>Idea
+										<ol>
+											<li>Idea Exploration</li>
+											<li>Interviews</li>
+											<li>Idea Narrowing</li>
+										</ol>
+									</li>
+									<li>UI Design
+										<ol>
+											<li>Reasons for specific UI backed by evidence</li>
+										</ol>
+									</li>
+								</ol>
+							</li>
+							<li>Code - 30%
+								<ol>
+									<li>Functionality
+										<ol>
+											<li>Does what was proposed to do</li>
+										</ol>
+									</li>
+									<li>Code Quality
+										<ol>
+											<li>Readable code</li>
+											<li>Battery, Storage, Memory usage</li>
+										</ol>
+									</li>
+								</ol>
+							</li>
+							<li>Presentation  - 30%
+								<ol>
+									<li>Presentation time</li>
+									<li>Marketing value
+										<ol>
+											<li>Scalability</li>
+											<li>Targeted Audience</li>
+											<li>Incentive to Download</li>
+										</ol>
+									</li>
+								</ol>
+							</li>
+						</ol>
+					</p>
+				</section>
+			
+				<section class="message">
+					<a class="anchor" id="class10"></a>
+					<h2>Class 10 - 10/6</h2>
+					<p>Today we will gauge interest on the Final Project options so we know which project liasons we need to be in contact with.</p>
+					<p>And then...<br>In Class Work Time!</p>
+					
+					<div class="email">
+					</div>
+					
+					<p><b>Upcoming Deliverables:</b> <br>
+					Design Reviews Wednesday 10/8 in EH3 Teamroom:
+						<ol>
+							<li>8:00-8:20 Swag</li>
+							<li>8:20-8:40 </li>
+							<li>8:40-9:00 Grimwootier</li>
+							<li>9:00-9:20 Smiley Seniors +1</li>
+							<li>9:20-9:40</li>
+							<li>9:40-10:00 LO</li>
+						</ol>
+					</p>
+				</section>
+			
+				<section class="message">
+					<a class="anchor" id="class9"></a>
+					<h2>Class 9 - 10/2</h2>
+					<p>In Class Work Time!</p>
+					<p>Share your app ideas with us and explain the target user you have in mind and the API you plan on using.</p>
+					
+					<div class="email">
+					<p>For those of you making HTTP requests, use the Android Volley Library. <a href="https://github.com/mcxiaoke/android-volley">https://github.com/mcxiaoke/android-volley</a><br>
+					You can include the dependency via Gradle. <br>
+					This library will help you make HTTP requests and manage them for you. You can pass in callbacks to handle the return data and handle different responses. It will handle running these requests off the mainUI thread so your app doesn't freeze when making requests. It's also good at managing cache, image downloading, threading, etc. Read more about it online (it's pretty popular). </p>
+					<p>ALSO, USE SLACK<br>
+					I'll be creating a channel on slack for mobileproto. Everyone should join and use it to work on your  projects together (in private channels). You can integrate it with Github and have it sync with the commits, issues, and pull requests so you can keep track of everything. (It has integration to other agile development tools). <br>
+					<a href="https://olin.slack.com/signup">https://olin.slack.com/signup</a>
+</p>
+						
+					</div>
+					
+					<p><b>Upcoming Deliverables:</b> <br>
+					Design Reviews Wednesday 10/8 in EH3 Teamroom:
+						<ol>
+							<li>8:00-8:20 Swag</li>
+							<li>8:20-8:40 </li>
+							<li>8:40-9:00 Grimwootier</li>
+							<li>9:00-9:20 Smiley Seniors +1</li>
+							<li>9:20-9:40</li>
+							<li>9:40-10:00 LO</li>
+						</ol>
+					</p>
+				</section>
+			
+				<section class="message">
+					<a class="anchor" id="class8"></a>
+					<h2>Class 8 - 9/29</h2>
+					<p>Indico <a href="http://indico.io/">http://indico.io/</a></p>
+					<p>Our friends at Indico are coming in to talk to the class and explain the upcoming sprint! </p>
+					
+					<div class="email">
+						<p>For Thursday, you should have your team, what API you plan on using this sprint, and what you plan on doing with it. AKA your app idea</p>
+
+						<p>This Sprint will end when Indico comes back on Thursday, October 16, when you will all pitch them your app! 30% of your grade on this sprint will be based on this presentation, so sell indico on your pitch!</p>
+
+						<p>The general approach to this sprint should be:</p>
+						<ol>
+							<li>Ideation and Exploration</li>
+							<li>Brainstorming and User Design</li>
+							<li>Paper Prototyping and MVP</li>
+							<li>Final Deliverable (includes well-coded and documented code and presentation)</li>
+						</ol>
+
+						<p>Grading is based on the projects section of the evaluation criteria we sent out with the OSS forms:</p>
+						<ol>
+							<li>Work Distribution -  10%</li>
+							<li>User Oriented Design Process - 30%
+								<ol>
+									<li>Idea
+										<ol>
+											<li>Idea Exploration</li>
+											<li>Interviews</li>
+											<li>Idea Narrowing</li>
+										</ol>
+									</li>
+									<li>UI Design
+										<ol>
+											<li>Reasons for specific UI backed by evidence</li>
+										</ol>
+									</li>
+								</ol>
+							</li>
+							<li>Code - 30%
+								<ol>
+									<li>Functionality
+										<ol>
+											<li>Does what was proposed to do</li>
+										</ol>
+									</li>
+									<li>Code Quality
+										<ol>
+											<li>Readable code</li>
+											<li>Battery, Storage, Memory usage</li>
+										</ol>
+									</li>
+								</ol>
+							</li>
+							<li>Presentation  - 30%
+								<ol>
+									<li>Presentation time</li>
+									<li>Marketing value
+										<ol>
+											<li>Scalability</li>
+											<li>Targeted Audience</li>
+											<li>Incentive to Download</li>
+										</ol>
+									</li>
+								</ol>
+							</li>
+						</ol>
+					</div>
+				</section>
+			
+				<section class="message">
+					<a class="anchor" id="class7"></a>
+					<h2>Class 7 - 9/25</h2>
+					<p>In Class Work Time!</p>
+					<p>Generate your image assets for Android Projects using the Android Assets Generator: <a href="http://romannurik.github.io/AndroidAssetStudio/index.html">http://romannurik.github.io/AndroidAssetStudio/index.html</a></p>
+					
+<p><b>Upcoming Deliverables:</b> <br>
+For Monday, 9/29 you should have a chat room that pushes and pulls chats from Firebase with a specific room ID (name it whatever you want but don’t change it after you’ve chosen one).<br>
+You want to push Java objects with the attributes: name, message, timestamp. Everything is in strings. <br>
+ to the following URL: <a href="https://mobileproto2014.firebaseio.com/chatroom/[[CHATROOM_ID]]">https://mobileproto2014.firebaseio.com/chatroom/[[CHATROOM_ID]]</a> <br>
+ myFireBaseRef.push( [[OBJECT_HERE]] ) <br>
+This will create a unique ID for your object and appends it to all the previously pushed chatroom data, you do not overwrite anything (you can very, very easily). You can find more details under “Guide” part of Android tutorial – or check out a few of the others on the Firebase website. <br>
+When you pull from a chatroom (it will update automatically), you will be getting an Array of Java Objects. <br>
+					</p>
+					<div class="email">
+						<!-- EMAIL HERE -->
+					</div>
+				</section>
+				
+				<section class="message">
+					<a class="anchor" id="class6"></a>
+					<h2>Class 6 - 9/22</h2>
+					<p>
+					
+This week we are going to be working with Firebase. Firebase is an online database that is updated real time. Your next assignment will be to use firebase to store your chats instead of locally.
+<br>
+Tutorial: <a href="https://www.firebase.com/docs/android/quickstart.html">https://www.firebase.com/docs/android/quickstart.html</a> 2)	Do not worry about “Authentication” and “Secure Your Firebase” part of the tutorial. That is a completely different tangent and you should focus on other things instead.</p>
+<p><b>Upcoming Deliverables:</b> <br>
+For Monday, 9/29 you should have a chat room that pushes and pulls chats from Firebase with a specific room ID (name it whatever you want but don’t change it after you’ve chosen one).<br>
+You want to push Java objects with the attributes: name, message, timestamp. Everything is in strings. <br>
+ to the following URL: <a href="https://mobileproto2014.firebaseio.com/chatroom/[[CHATROOM_ID]]">https://mobileproto2014.firebaseio.com/chatroom/[[CHATROOM_ID]]</a> <br>
+ myFireBaseRef.push( [[OBJECT_HERE]] ) <br>
+This will create a unique ID for your object and appends it to all the previously pushed chatroom data, you do not overwrite anything (you can very, very easily). You can find more details under “Guide” part of Android tutorial – or check out a few of the others on the Firebase website. <br>
+When you pull from a chatroom (it will update automatically), you will be getting an Array of Java Objects. <br>
+					</p>
+					<div class="email">
+						<!-- EMAIL HERE -->
+					</div>
+				</section>
+				
+				<section class="message">
+					<a class="anchor" id="class5"></a>
+					<h2>Class 5 - 9/18</h2>
+					<p>
+					
+The ChatApp should have everything working. 
+<br>
+Changing usernames (via AlertDialog, keeping track of what chats are from which user)<br>
+Editing chats that have been entered before (via AlertDialog - standard way of doing)<br>
+Saving/Loading chats to database (able to load from database on reopening the app)<br>
+Timestamps, username, message in List of Chats<br>
+Change the App Icon. <br>
+Everything should work like a real chat app except internets.<br>
+<br>
+On Monday, we are going to go over anything that people may find confusing. So if you find anything confusing be sure to send us an email as soon as possible. We will also propose options for the next lab during class. 
+<br>
+Our next lab will use firebase so read through their <a href="https://www.firebase.com/docs/android/quickstart.html">tutorial</a>
+(We are using Gradle, not Maven)
+<br>
+<a href = "https://developer.android.com/training/articles/perf-anr.html">Reading</a> for next class (pretty short - good thing to read this for performance)
+<br>
+
+Also, if you have project preferences (from the project list or others) please list them after your name in the Class Roster document. 
+<br>
+Google Drive folder <a href="https://drive.google.com/#folders/0B6xCjnZeUlbMUzBIdk9OVzU5QWM">link</a>:
+<br>
+					</p>
+					<div class="email">
+						<!-- EMAIL HERE -->
+					</div>
+				</section>
+				
+				<section class="message">
+					<a class="anchor" id="class4"></a>
+					<h2>Class 4 - 9/15</h2>
+					<div class="email">
+						<!-- EMAIL HERE -->
+					</div>
+				</section>
+				
+				<section class="message">
+					<a class="anchor" id="class3"></a>
+					<h2>Class 3 - 9/11</h2>
+					<div class="email">
+						<!-- EMAIL HERE -->
+					</div>
+				</section>
+				
+				<section class="message">
+					<a class="anchor" id="class2"></a>
+					<h2>Class 2 - 9/8</h2>
+					<div class="email">
+						<!-- EMAIL HERE -->
+					</div>
+				</section>
+				
+				<section class="message">
+					<a class="anchor" id="class1"></a>
+					<h2>Class 1 - 9/4</h2>
+					<div class="email">
+						<!-- EMAIL HERE -->
+					</div>
+				</section>
+			</div>
+			
+		</div>
+		
+		<script>
+	    		window.location='#class10';
+	    	</script>
+	</body>
+</html>
+
+	</head>
+	<body>
+		<h1>
+			<img src="http://www.userlogos.org/files/logos/drown/android4.png"/>
+			Mobile Proto 2014
+		</h1>
+		<div id="container">
+			
 			
 			<nav>
 				<ul>
